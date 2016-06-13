@@ -1,0 +1,7 @@
+﻿CREATE TABLE [dbo].[Table]
+(
+	[EmpID] INT NOT NULL PRIMARY KEY, 
+    [FName] NVARCHAR(50) NOT NULL, 
+    [LName] NVARCHAR(50) NOT NULL, 
+    [Tel] NVARCHAR(50) NOT NULL
+)
